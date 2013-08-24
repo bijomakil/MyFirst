@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="42" started-at="2013-08-24T17:23:42Z" finished-at="2013-08-24T17:23:42Z">
+    <groups>
+      <group name="group 2">
+        <method signature="AppTest.groupTwoTest()[pri:0, instance:org.apache.maven.archetypes.maven_archetype_quickstart.AppTest@3969454d]" name="groupTwoTest" class="org.apache.maven.archetypes.maven_archetype_quickstart.AppTest"/>
+      </group> <!-- group 2 -->
+      <group name="group 1">
+        <method signature="AppTest.groupOneTest()[pri:0, instance:org.apache.maven.archetypes.maven_archetype_quickstart.AppTest@3969454d]" name="groupOneTest" class="org.apache.maven.archetypes.maven_archetype_quickstart.AppTest"/>
+      </group> <!-- group 1 -->
+    </groups>
+    <test name="Default test" duration-ms="42" started-at="2013-08-24T17:23:42Z" finished-at="2013-08-24T17:23:42Z">
+      <class name="org.apache.maven.archetypes.maven_archetype_quickstart.AppTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.apache.maven.archetypes.maven_archetype_quickstart.AppTest@3969454d]" name="setUp" is-config="true" duration-ms="11" started-at="2013-08-24T18:23:42Z" finished-at="2013-08-24T18:23:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="groupOneTest()[pri:0, instance:org.apache.maven.archetypes.maven_archetype_quickstart.AppTest@3969454d]" name="groupOneTest" duration-ms="11" started-at="2013-08-24T18:23:42Z" finished-at="2013-08-24T18:23:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- groupOneTest -->
+        <test-method status="PASS" signature="groupTwoTest()[pri:0, instance:org.apache.maven.archetypes.maven_archetype_quickstart.AppTest@3969454d]" name="groupTwoTest" duration-ms="2" started-at="2013-08-24T18:23:42Z" finished-at="2013-08-24T18:23:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- groupTwoTest -->
+      </class> <!-- org.apache.maven.archetypes.maven_archetype_quickstart.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
